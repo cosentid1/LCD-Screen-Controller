@@ -14,7 +14,7 @@ Intitially, the snake will be stagnant on the screen until a button is pressed. 
 Button Input: Each button is mapped to a specific directional control. The state of each button is read by the Arduino, which updates the snake’s direction accordingly.
 
 ## Demo Video
-
+https://github.com/user-attachments/assets/83e246be-8796-49ad-b3bf-5b1b5bafc7a8
 
 ## Next Steps
 
