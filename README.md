@@ -9,18 +9,9 @@ This project displays a two-pixel "snake" game on an LCD screen using an Arduino
   3) Next Steps
 
 ## Design Overview
-
-Arduino Uno: The microcontroller that drives the game logic and handles user input.
-16x2 LCD Screen: Displays the game grid, snake, and food items.
-Four Push Buttons: Used for controlling the direction of the snake (up, down, left, right).
-Breadboard and Connecting Wires: For circuit assembly and connections between components.
-Functionality:
-
-Game Logic: The snake moves continuously on the LCD screen, with its direction controlled by the four buttons. The game updates the screen in real-time based on the snake's movements and interactions with food items and boundaries.
+This project uses an Arduino Uno R3 as an interface between external input (push buttons) and generates a response on another device (LCD screen). The push buttons are wired in an active high setup. This means that the ardunio will continuously recieve no signal from the buttons until they are pressed. Each button is wired to a different input pin and each pin has been mapped to a specific direction (left, up down or right). This means based on the button that is pressed, the snake will be moved in that direction on the LCD screen.
+Intitially, the snake will be stagnant on the screen until a button is pressed. Once this happens, it will move continuously until the program is terminated. The screen is updated in real-time by being cleared and then redrawn based on the last button input.
 Button Input: Each button is mapped to a specific directional control. The state of each button is read by the Arduino, which updates the snake’s direction accordingly.
-Collision Detection: The game includes logic to detect collisions with the screen boundaries and the snake’s own body, ending the game when a collision is detected.
-Score Tracking: The LCD screen displays the current score, which increments each time the snake consumes food.
-This project demonstrates fundamental concepts in embedded systems, including real-time control, user input handling, and graphical display management, providing a hands-on learning experience in both electronics and programming.
 
 ## Demo Video
 
