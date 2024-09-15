@@ -1,6 +1,6 @@
 # LCD-Screen-Controller
 
-The aim of this device is to help people with hearing or vision impairments know when they have poured the equivalent of half a cup of liquid.
+This project displays a two-pixel "snake" game on an LCD screen using an Arduino microcontroller. The user can then move the snake around the screen by pushing four dirctional buttons.
 
 ## Table of Contents
 
@@ -9,9 +9,6 @@ The aim of this device is to help people with hearing or vision impairments know
   3) Next Steps
 
 ## Design Overview
-This project implements a classic Snake game on an LCD screen using an Arduino microcontroller. The setup includes a 16x2 LCD screen for game display and four tactile push buttons for user input.
-
-Components:
 
 Arduino Uno: The microcontroller that drives the game logic and handles user input.
 16x2 LCD Screen: Displays the game grid, snake, and food items.
