@@ -17,4 +17,4 @@ Button Input: Each button is mapped to a specific directional control. The state
 https://github.com/user-attachments/assets/699409bf-8cf2-41b8-8756-b6beb0314321
 
 ## Next Steps
-The most obvious way to improve this project would to simply be to recreate the snake game by adding an edible fruit and collision to kill the snake. This is a very plausible task to code however the 16x2 screen is very cramped and would make the game too difficult for players. Another improvment would be to add more buttons that perform different tasks such as speeding up and slowing down the snake or being able to control two characters at the same time.
+One way to improve this project would be to recreate the snake game by adding an edible fruit and collision to kill the snake. This is a very plausible task to code however the 16x2 screen is very cramped and would make the game too difficult for players. Another improvment would be to add more buttons that perform different tasks such as speeding up and slowing down the snake or being able to control two characters at the same time.
