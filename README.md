@@ -14,7 +14,7 @@ Intitially, the snake will be stagnant on the screen until a button is pressed. 
 Button Input: Each button is mapped to a specific directional control. The state of each button is read by the Arduino, which updates the snake’s direction accordingly.
 
 ## Demo Video
-https://github.com/user-attachments/assets/83e246be-8796-49ad-b3bf-5b1b5bafc7a8
+https://github.com/user-attachments/assets/699409bf-8cf2-41b8-8756-b6beb0314321
 
 ## Next Steps
 The most obvious way to improve this project would to simply be to recreate the snake game by adding an edible fruit and collision to kill the snake. This is a very plausible task to code however the 16x2 screen is very cramped and would make the game too difficult for players. Another improvment would be to add more buttons that perform different tasks such as speeding up and slowing down the snake or being able to control two characters at the same time.
