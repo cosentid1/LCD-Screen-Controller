@@ -1,6 +1,6 @@
 # LCD-Screen-Controller
 
-This project displays a two-pixel "snake" game on an LCD screen using an Arduino microcontroller. The user can then move the snake around the screen by pushing four directional buttons.
+This project displays a two-pixel character game on an LCD screen using an Arduino microcontroller. The user can then move the snake around the screen by pushing four directional buttons.
 
 ## Table of Contents
 
